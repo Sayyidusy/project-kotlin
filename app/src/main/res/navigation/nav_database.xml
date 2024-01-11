@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_database"
+    app:startDestination="@id/registrasi2">
+
+    <activity
+        android:id="@+id/registrasi2"
+        android:name="com.org.proyektingkat2.siagabanjir.Registrasi"
+        android:label="register_activity"
+        tools:layout="@layout/register_activity" />
+    <activity
+        android:id="@+id/test"
+        android:name="com.org.proyektingkat2.siagabanjir.Test"
+        android:label="Test" />
+</navigation>
